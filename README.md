@@ -143,7 +143,7 @@ hier sind bereits die externen Web Components per NPM installiert
 * Ergebnis zeigen ([object Object],[object Object])
 
 * Ordner app_components/dashboard-info-panel
-* Datei app_components/dashboard-server-list/dashboard-info-panel
+* Datei app_components/dashboard-info-panel/dashboard-info-panel
 
         <link rel="import" href="../../node_modules/@polymer/polymer/polymer.html"/>
         <link rel="import" href="../../node_modules/@polymer/paper-card/paper-card.html"/>
@@ -180,7 +180,7 @@ hier sind bereits die externen Web Components per NPM installiert
             <dashboard-info-panel serverdata="{{item}}"></dashboard-info-panel>
         </template>
 
-* app_components/dashboard-server-list/dashboard-info-panel
+* app_components/ashboard-info-panel/dashboard-info-panel
 
             <template>
                 {{serverdata.name}}
@@ -199,7 +199,7 @@ hier sind bereits die externen Web Components per NPM installiert
 
 * Ergebnis zeigen (Merkur Venus Erde)
 
-* app_components/dashboard-server-list/dashboard-info-panel
+* app_components/dashboard-info-panel/dashboard-info-panel
 
                 <style>
                     paper-card {
@@ -229,7 +229,7 @@ hier sind bereits die externen Web Components per NPM installiert
 
 * Ergebnis zeigen (Bilder!!!)
 
-* app_components/dashboard-server-list/dashboard-info-panel
+* app_components/dashboard-info-panel/dashboard-info-panel
 
                 <paper-card heading="{{serverdata.name}}" image="images/{{serverdata.name}}.jpg">
                     <label>IP:</label>{{serverdata.ip}}<br />
