@@ -30,22 +30,22 @@ hier sind bereits die externen Web Components per NPM installiert
 
 * Datei app_components/dashboard-app/dashboard-app.html
     * vorgenerierten Inhalt löschen
+    
+    
+ 
+          <link rel="import" href="../../node_modules/@polymer/polymer/polymer.html"/>
+                <dom-module id="dashboard-app">
+                        <template>
+                                <h1>WEBS Server Dashboard</h1>
+                        </template>
 
+                    <script>
+                        Polymer({
+                            is: 'dashboard-app'
+                        });
+                    </script>
 
-        <link rel="import" href="../../node_modules/@polymer/polymer/polymer.html"/>
-
-        <dom-module id="dashboard-app">
-            <template>
-                <h1>WEBS Server Dashboard</h1>
-            </template>
-
-            <script>
-                Polymer({
-                    is: 'dashboard-app'
-                });
-            </script>
-
-        </dom-module>
+                </dom-module>
 
 
 * index.html
