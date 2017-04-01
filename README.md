@@ -97,21 +97,21 @@ hier sind bereits die externen Web Components per NPM installiert
     * vorgenerierten Inhalt löschen
 
 
-        <link rel="import" href="../../node_modules/@polymer/polymer/polymer.html"/>
-        <link rel="import" href="../../node_modules/@polymer/iron-ajax/iron-ajax.html"/>
+                <link rel="import" href="../../node_modules/@polymer/polymer/polymer.html"/>
+                <link rel="import" href="../../node_modules/@polymer/iron-ajax/iron-ajax.html"/>
 
-        <dom-module id="dashboard-server-list">
-            <template>
-                Inhalt
-            </template>
+                <dom-module id="dashboard-server-list">
+                    <template>
+                        Inhalt
+                    </template>
 
-            <script>
-                Polymer({
-                    is: 'dashboard-server-list'
-                });
-            </script>
+                    <script>
+                        Polymer({
+                            is: 'dashboard-server-list'
+                        });
+                    </script>
 
-        </dom-module>
+                </dom-module>
 
 * app_components/dashboard-app/dashboard-app.html
 
